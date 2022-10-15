@@ -12,29 +12,29 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (4 pts)
 
-_____ 1 pt: The `Pumpkin` class displays something pumpkin-like
+**YES** 1 pt: The `Pumpkin` class displays something pumpkin-like
 
-_____ 1 pt: The `Shirt` class dislays something shirt-like
+**YES** 1 pt: The `Shirt` class dislays something shirt-like
 
-_____ 1 pt: The `Pants` class displays something pants-like
+**YES** 1 pt: The `Pants` class displays something pants-like
 
-_____ 1 pt: The `Boot` class displays something boot-like
+**YES** 1 pt: The `Boot` class displays something boot-like
 
 ### Level 2 (3 pts)
 
-_____ 1 pt: The `Scarecrow` class displays something `Scarecrow-like`
+**YES** 1 pt: The `Scarecrow` class displays something `Scarecrow-like`
 
-_____ 1 pt: The `Scarecrow` uses the classes defined in Level 1 (**Association**) to accomplish its goals
+**YES** 1 pt: The `Scarecrow` uses the classes defined in Level 1 (**Association**) to accomplish its goals
 
-_____ 1 pt: The `Banner` class displays a decorative Banner
+**YES** 1 pt: The `Banner` class displays a decorative Banner
 
 ### Level 3 (3 pts)
 
-_____ 1 pt: The `Banner` class resizes its display to fit the supplied message
+**YES** 1 pt: The `Banner` class resizes its display to fit the supplied message
 
-_____ 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
+**NO** 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
 
-_____ 1 pt: The program displays a default message if none is supplied.
+**YES** 1 pt: The program displays a default message if none is supplied.
 
 ## Kudos:
 
@@ -46,9 +46,9 @@ _____ (Kudos!) Boots are mirror images of one another
 
 ## General Items:
 
-_____ 4 pts: Programs compile without errors or warnings
+**YES** 4 pts: Programs compile without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+**YES** 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
 _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
@@ -62,6 +62,6 @@ _____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       _____ Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed `rubric.md` file)
+**YES** 1 pt: All required files included with submission (including completed `rubric.md` file)
 
 _____ 1 pt: `reflection.md` contains your reflection on the assignment
