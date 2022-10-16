@@ -1,21 +1,22 @@
 /*
- * Shirt class (template)
+ * Shirt class
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author R. Jordan Crouser + CSC120 (Fall '22)) + Janna Gilleman
+ * @version 10 15 22
  */
 public class Shirt {
 
-    /*
-     * TODO: Modify this method to print ASCII Art Shirt
+    /* Method. print ASCII Art Shirt
+     * @param n/a
+     * @return ASCII shirt
      */
     public void display() {
         System.out.println("        ----|____|----");
-        System.out.println("        |             |");
-        System.out.println("        |             |");
-        System.out.println("        |             |");
-        System.out.println("        |             |");
-        System.out.println("        |-------------|");
+        System.out.println("      / |             | \\");
+        System.out.println("     /__|             |__\\");
+        System.out.println("      | |             | |");
+        System.out.println("      | |             | |");
+        System.out.println("      | |----|--|-----| |");
     }
 
     /* main method (for testing) */

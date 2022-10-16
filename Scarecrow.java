@@ -1,14 +1,15 @@
 /*
  * Scarecrow class (template)
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author R. Jordan Crouser + CSC120 (Fall '22)) + Janna Gilleman
+ * @version 10 15 22
  */
 
 class Scarecrow {
 
     /* Parts of the Scarecrow
-     * TODO: Uncomment remaining parts as you implement each class
+     * @param n/a
+     * @return n/a
      */
     private Pumpkin head;
     private Shirt body;
@@ -19,8 +20,14 @@ class Scarecrow {
     private Banner sign;
     private String message;
 
-    /* Constructor
-     * TODO: initialize remaining parts
+    /* Constructor. intialize parts of scarecrow (in order)
+     * @param banner Strings: ASCII art
+     * @param h Strings: ASCII art pumpkin head
+     * @param b Strings: ASCII art shirt
+     * @param l Strings: ASCII art pants
+     * @param lbt Strings: ASCII art left boot
+     * @param rbt Strings: ASCII art right boot
+     * @return sign, head, body, legs, leftFoot, rightFoot
      */
     public Scarecrow(Banner banner, Pumpkin h, Shirt b, Pants l, Boot lbt, Boot rbt) {
         sign = banner;
@@ -32,8 +39,8 @@ class Scarecrow {
     }
 
     /* Displays the Scarecrow 
-     * TODO: call the .display() method of each part... 
-     *       ...in the right order!
+     * @param n/a
+     * @return ASCII scarecrow
     */
     public void display() {
         sign.display();
@@ -47,11 +54,9 @@ class Scarecrow {
     /* Main method (for testing) */
     public static void main(String[] args) {
 
-        // TODO: Don't forget to update the line below if you modify the constructor
         Scarecrow myScarecrow = new Scarecrow(new Banner("Get off my lawn!"), new Pumpkin(), new Shirt(), new Pants(), new Boot("left"),new Boot("right"));
 
         // If a message was passed in on the command line, extract and store it
-        // TODO: in Step 4, you'll pass this value along to your Banner constructor
        if (args.length > 0) {
            myScarecrow.message = args[0];
            System.out.println("-->" + args[0] + "<--");

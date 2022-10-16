@@ -1,8 +1,8 @@
 /*
  * Banner class (template)
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author R. Jordan Crouser + CSC120 (Fall '22)) + Janna Gilleman
+ * @version 10 15 22
  */
 public class Banner {
     
@@ -10,25 +10,40 @@ public class Banner {
     private String message;
     int l;
 
-    /* Constructor */
+    /* Constructor passes in message when new Banner is made
+     * @param m String: message
+     * @return n/a
+    */
     public Banner(String m) {
         this.message = m;
         l = this.message.length();
     }
 
     /*
-     * TODO: Modify this method to print a decorative banner, resized to fit the message
+     * Print a decorative banner, resized to fit the message
+     * @param l Int: length of message
+     * @return decorative banner
      */
     public void display() {
+        System.out.print("  ");
         for (int i=0; i<l+4; i++){
             System.out.print("*");
         }
-        System.out.println();
-        System.out.println("* " + this.message + " *");
+        System.out.println("  ");
+        System.out.println("  * " + this.message + " *");
+        System.out.print("  ");
         for (int i=0; i<l+4; i++){
             System.out.print("*");
         }
-        System.out.println();
+        System.out.println("  ");
+        for (int i=0; i<l+4; i++){
+            System.out.print(" ");
+        }
+        System.out.println("  *");
+        for (int i=0; i<l+4; i++){
+            System.out.print(" ");
+        }
+        System.out.println("   *");
     }
 
     /* main method (for testing) */

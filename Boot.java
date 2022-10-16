@@ -1,20 +1,25 @@
 /*
  * Boot class (template)
- * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+  * Assignment 5: Bringing it All Together
+ * @author R. Jordan Crouser + CSC120 (Fall '22)) + Janna Gilleman
+ * @version 10 15 22
  */
 public class Boot {
   
     private String direction;
   
-    /* Constructor */
+    /* Constructor makes direction 
+     * @param direction String: left or right
+     * @return n/a
+    */
     public Boot(String direction) {
         this.direction = direction.toLowerCase();
     }
 
     /*
-     * TODO: Modify this method to print ASCII Art Boot
+     * Method. Print ASCII Art Boot
+     * @param direction String: chooses which boot to print
+     * @return ASCII boot
      */
     public void display() {
         if (this.direction.equals("left")) {

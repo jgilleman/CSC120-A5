@@ -38,9 +38,9 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ## Kudos:
 
-_____ (Kudos!) Banner is printed as a speech bubble with correct alignment
+**YESS** (Kudos!) Banner is printed as a speech bubble with correct alignment
 
-_____ (Kudos!) Boots are mirror images of one another
+**NO** (Kudos!) Boots are mirror images of one another
 
 
 
@@ -50,18 +50,18 @@ _____ (Kudos!) Boots are mirror images of one another
 
 **YES** 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+**YES** 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+      **YES**Classes & class members all have Javadoc header comments
 
-      _____ Clear and consistent indentation of bracketed sections
+      **YES** Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      **YES** Adheres to Java conventions on naming & capitalization
 
-      _____ Methods & variables all have clear and accurate names
+      **YES** Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      **YES** Methods avoid confusing side effects
 
 **YES** 1 pt: All required files included with submission (including completed `rubric.md` file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+**YES** 1 pt: `reflection.md` contains your reflection on the assignment
